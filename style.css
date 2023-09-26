@@ -1,0 +1,527 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   color: white;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#smallcircle{
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: white;
+    mix-blend-mode: difference;
+    z-index: 999;
+    transition: all ease 0.1s;
+   
+}
+#main{
+    width: 100%;
+    height: 100%;
+}
+#headpage{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(27, 27, 75, 0.958);
+}
+#nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2px 25px;
+}
+#navR{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+     
+}
+#navr{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2px;
+    padding: 3px;
+    gap: 5px;
+ 
+}
+#light{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0.4px solid white;
+    
+}
+#dark{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+#nav>h2{
+    font-family:cursive;
+    cursor: pointer;
+}
+
+#nav>h2:hover{
+     -webkit-text-stroke: 0.3px white ;
+     color:transparent;
+
+}
+#nav a{
+    text-decoration: none;
+    font-size: 1.5vw;
+}
+
+.elemani{
+    overflow: hidden;
+    width: fit-content;
+}
+.elemani .elemtext{
+    transform: translateY(100%);
+} 
+
+#heading{
+    margin-top: 90px;
+}
+
+#heading h1{
+    text-transform: uppercase;
+    font-size: 9vw;
+    letter-spacing: 5px;
+    padding-left: 20px;
+    opacity: .6;
+}
+#chotahead{
+    padding-left: 7vw;
+    width: fit-content;
+    text-align: right;
+}
+#chotahead h5{
+    line-height: 3px;
+    font-size: 1.5vw;
+}
+
+#headfoter{
+    position: absolute;
+    bottom: 3%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3px 20px;
+}
+#headfoter h6{
+    font-size: 1.4vw;
+    font-weight: 200;
+    text-transform: uppercase;
+}
+#headfoter h6:hover{
+    text-decoration:underline;
+    cursor: pointer;
+    
+}
+#headfoter h6 i{
+    font-size: 1.2vw;
+    font-weight: 200;
+}
+
+#lasticon{
+    display: flex;
+    gap: 7px;
+    align-items: center;
+    justify-content: center;
+}
+.circle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    background-color: rgb(76, 80, 80);
+    border-radius: 50%;
+}
+.circle i{
+    font-size: 1.5vw;
+}
+
+#secondpage{
+    padding-top: 100px;
+    padding-right: 10vw;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(27, 27, 75, 0.958);
+    
+}
+
+ .elem{
+    width: 100%;
+    border-top: 2px solid #8888;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 0px;
+   position: relative;
+   
+}
+
+.elem h1{
+    text-transform: uppercase;
+    font-size: 6vw;
+    font-weight: 500;
+    opacity: .6;
+}
+.elem img{
+    height: 100%;
+    z-index: 999;
+    position: absolute;
+    opacity: 0;
+}
+#lastelem{
+    border-bottom: 2px solid #8888;
+}
+
+#about{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(27, 27, 75, 0.958);
+    padding-top: 10vw;
+    
+}
+#insidediv{
+    padding-right: 10vw;
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+     justify-content: end;
+    gap:20px
+}
+
+#img{
+    padding-left: 10vw;
+    width: 220px;
+    height: 220px;
+    border: 2px solid white ;
+    border-radius: 50%;
+    background-image: url(./IMG_3503.jpg);
+    background-position: top;
+    background-size: cover;
+}
+#text h5{
+    font-size: 20px;
+    font-weight: 500;
+    opacity: .6;
+}
+
+#text p{
+    padding: 15px 0px;
+}
+#text{
+     width: 23rem;
+}
+#text a{
+    padding: 3px 8px;
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 100px;
+    font-size: 15px;
+}
+#text a:hover{
+    background-color: white;
+    color: black;
+    font-weight: 800;
+}
+
+#lastfoter{
+    margin-top: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+}
+#right{
+    display: flex;
+    gap: 2vw;
+    
+}
+#left{
+    display: flex;
+     gap: 2vw;
+    
+     
+}
+
+#right a{
+     font-size: 14px;
+     font-weight: 500;
+     letter-spacing: 1.5px;
+    text-decoration: none;
+    text-transform: uppercase;
+     
+}
+
+@media(max-width: 500px){
+
+    #smallcircle{
+    opacity: 0; 
+    }
+#headpage{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(27, 27, 75, 0.958);
+}
+#nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2px 25px;
+}
+#navR{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+     
+}
+#navr{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2px;
+    padding: 3px;
+    gap: 5px;
+ 
+}
+#light{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0.4px solid white;
+    
+}
+#dark{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+#nav>h2{
+    font-family:cursive;
+    cursor: pointer;
+}
+
+#nav>h2:hover{
+     -webkit-text-stroke: 0.3px white ;
+     color:transparent;
+
+}
+#nav a{
+    text-decoration: none;
+    font-size: 2.5vw;
+}
+
+.elemani{
+    overflow: hidden;
+    width: fit-content;
+}
+.elemani .elemtext{
+    transform: translateY(100%);
+} 
+
+#heading{
+    margin-top: 220px;
+}
+
+#heading h1{
+    text-transform: uppercase;
+    font-size: 11vw;
+    letter-spacing: 5px;
+    padding-left: 60px;
+    opacity: .6;
+}
+#chotahead{
+    padding-left: 9vw;
+    width: fit-content;
+    text-align: right;
+}
+#chotahead h5{
+    line-height: 3px;
+    font-size: 2.2vw;
+}
+
+#headfoter{
+    position: absolute;
+    bottom: 1%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3px 20px;
+}
+#headfoter h6{
+    font-size: 2vw;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+#headfoter h6:hover{
+    text-decoration:underline;
+    cursor: pointer;
+    
+}
+#headfoter h6 i{
+    font-size: 1.5vw;
+    font-weight: 200;
+}
+
+#lasticon{
+    display: flex;
+    gap: 7px;
+    align-items: center;
+    justify-content: center;
+}
+.circle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    background-color:  transparent;
+     border-radius: 50%;
+     border: 0.5px solid black
+}
+.circle i{
+    font-size: 2vw;
+}
+
+
+#secondpage{
+    padding-top: 120px;
+    padding-right: 10vw;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(27, 27, 75, 0.958);
+    
+}
+
+ .elem{
+    width: 100%;
+    border-top: 2px solid #8888;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:30px 0px;
+   position: relative;
+   
+}
+
+.elem h1{
+    text-transform: uppercase;
+    font-size: 7vw;
+    font-weight: 500;
+    opacity: .6;
+}
+.elem img{
+    height: 100%;
+    z-index: 999;
+    position: absolute;
+    opacity: 0;
+}
+#lastelem{
+    border-bottom: 2px solid #8888;
+}
+
+
+
+
+#about{
+    width: 100%;
+    height: 130%;
+    padding-top: 8vw;
+    background-color: rgba(27, 27, 75, 0.958);
+    
+}
+#insidediv{
+    padding-right: 10vw;
+    width: 100%;
+    height: fit-content;
+    flex-direction:column;
+    gap:50px
+}
+
+#img{
+    padding-left: 10vw;
+    width: 220px;
+    height: 220px;
+    border: 2px solid white ;
+    border-radius: 50%;
+    background-image: url(./IMG_3503.jpg);
+    background-position: top;
+    background-size: cover;
+}
+#text h5{
+    font-size: 20px;
+    font-weight: 500;
+    opacity: .6;
+    
+}
+
+ 
+#text{
+    width: 23rem;
+    padding-left: 40px;
+}
+#text a{
+    padding: 3px 10px;
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 100px;
+    font-size: 15px;
+}
+#text a:hover{
+    background-color: white;
+    color: black;
+    font-weight: 800;
+}
+
+#lastfoter{
+    margin-top: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 10px;
+}
+#right{
+    display: flex;
+    gap: 1.5vw;
+    
+}
+#lastfoter #right a{
+    font-size: 8px;
+    font-weight: 800;
+}
+#left{
+    display: flex;
+     gap: 1vw;
+    
+     
+}
+
+#right a{
+     font-size: 14px;
+     font-weight: 500;
+     letter-spacing: 1.5px;
+    text-decoration: none;
+    text-transform: uppercase;
+     
+}
+
+} 
+
+
